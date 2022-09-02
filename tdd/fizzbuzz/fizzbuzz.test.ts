@@ -22,7 +22,7 @@ describe("FizzBuzz", () => {
   });
 
   it("Returns Buzz for 5", () => {
-    expect(fizzbuzz(5)).toEqual("Buzz");
+    expect(fizzbuzz(5)).toEqual("BuzzBuzz");
   });
 
   it("Returns Buzz for 10", () => {
@@ -55,5 +55,9 @@ describe("FizzBuzz", () => {
 
   it("Returns FizzBuzz for 53", () => {
     expect(fizzbuzz(53)).toEqual("FizzBuzz");
+  });
+
+  it("Returns FizzBuzz for 35", () => {
+    expect(fizzbuzz(35)).toEqual("FizzBuzzBuzz");
   });
 });

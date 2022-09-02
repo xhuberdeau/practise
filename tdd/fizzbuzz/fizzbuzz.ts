@@ -22,7 +22,7 @@ const fizzbuzz = (value: number) => {
   }
 
   if (value % 5 === 0) {
-    return BUZZ;
+    return output + BUZZ;
   }
 
   return output || value;
