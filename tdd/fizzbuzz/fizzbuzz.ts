@@ -15,16 +15,17 @@ const fizzbuzz = (value: number) => {
   }
 
   const stringValue: string = value.toString();
+  let output = "";
 
   if (stringValue.includes("3")) {
-    return FIZZ;
+    output += FIZZ;
   }
 
   if (stringValue.includes("5")) {
-    return BUZZ;
+    output += BUZZ;
   }
 
-  return value;
+  return output || value;
 };
 
 export default fizzbuzz;
