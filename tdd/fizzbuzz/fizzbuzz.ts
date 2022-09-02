@@ -1,5 +1,5 @@
 const fizzbuzz = (value: number) => {
-  return 1;
+  return value;
 };
 
 export default fizzbuzz;
