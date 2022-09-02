@@ -18,7 +18,7 @@ const fizzbuzz = (value: number) => {
   }
 
   if (value % 3 === 0) {
-    return FIZZ;
+    return output + FIZZ;
   }
 
   if (value % 5 === 0) {
