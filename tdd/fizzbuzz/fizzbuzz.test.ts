@@ -30,11 +30,11 @@ describe("FizzBuzz", () => {
   });
 
   it("Returns FizzBuzz for 15", () => {
-    expect(fizzbuzz(15)).toEqual("FizzBuzz");
+    expect(fizzbuzz(15)).toEqual("BuzzFizzBuzz");
   });
 
   it("Returns FizzBuzz for 30", () => {
-    expect(fizzbuzz(30)).toEqual("FizzBuzz");
+    expect(fizzbuzz(30)).toEqual("FizzFizzBuzz");
   });
 
   it("Returns Fizz for 13", () => {
