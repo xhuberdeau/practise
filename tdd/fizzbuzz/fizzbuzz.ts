@@ -14,8 +14,14 @@ const fizzbuzz = (value: number) => {
     return BUZZ;
   }
 
-  if (value.toString().includes("3")) {
+  const stringValue: string = value.toString();
+
+  if (stringValue.includes("3")) {
     return FIZZ;
+  }
+
+  if (stringValue.includes("5")) {
+    return BUZZ;
   }
 
   return value;
