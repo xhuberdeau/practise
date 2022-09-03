@@ -1,3 +1,5 @@
+import leapYears from "./leapYears";
+
 describe("Leap years", () => {
   describe("All years divisible by 400 ARE leap years", () => {
     test("2000 is a leap year", () => {
