@@ -2,30 +2,38 @@ const FIZZ = "Fizz";
 const BUZZ = "Buzz";
 
 const fizzbuzz = (value: number) => {
-  const stringValue: string = value.toString();
   let output = "";
 
-  if (stringValue.includes("3")) {
+  if (contains3(value)) {
     output += FIZZ;
   }
 
-  if (stringValue.includes("5")) {
+  if (contains5(value)) {
     output += BUZZ;
   }
 
-  if (value % 15 === 0) {
+  if (divisbleBy15(value)) {
     return output + `${FIZZ}${BUZZ}`;
   }
 
-  if (value % 3 === 0) {
+  if (divisibleBy3(value)) {
     return output + FIZZ;
   }
 
-  if (value % 5 === 0) {
+  if (divisibleBy5(value)) {
     return output + BUZZ;
   }
 
   return output || value;
 };
+
+const divisibleBy3 = (value: number) => divisible(value, 3);
+const divisibleBy5 = (value: number) => divisible(value, 5);
+const divisbleBy15 = (value: number) => divisible(value, 15);
+const divisible = (value: number, diviser: number) => value % diviser === 0;
+const contains3 = (value: number) => numberContainsDigit(value, "3");
+const contains5 = (value: number) => numberContainsDigit(value, "5");
+const numberContainsDigit = (value: number, digit: string) =>
+  value.toString().includes(digit);
 
 export default fizzbuzz;

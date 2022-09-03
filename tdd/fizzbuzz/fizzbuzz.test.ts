@@ -69,7 +69,7 @@ describe("FizzBuzz", () => {
     });
   });
 
-  describe("Complexe mix", () => {
+  describe("Complex mix", () => {
     it("Returns BuzzFizzBuzz for 15", () => {
       expect(fizzbuzz(15)).toEqual("BuzzFizzBuzz");
     });
