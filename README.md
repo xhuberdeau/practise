@@ -1,0 +1,3 @@
+# Practise
+
+Some place to practise software techniques, like TDD, katas, design patterns, ...
