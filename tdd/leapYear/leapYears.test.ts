@@ -5,6 +5,10 @@ describe("Leap years", () => {
     test("2000 is a leap year", () => {
       expect(leapYears(2000)).toBeTruthy();
     });
+
+    test("1200 is a leap year", () => {
+      expect(leapYears(1200)).toBeTruthy();
+    });
   });
 
   describe("All years divisible by 100 but not by 400 are NOT leap years", () => {
