@@ -24,4 +24,10 @@ describe("String calculator", () => {
       expect(stringCalculator.add("1.1,2.2")).toEqual("3.3");
     });
   });
+
+  describe("Sum with any number of string params", () => {
+    test('returns "18" for "3", "4", "5", "6"', () => {
+      expect(stringCalculator.add("3", "4", "5", "6")).toEqual("18");
+    });
+  });
 });

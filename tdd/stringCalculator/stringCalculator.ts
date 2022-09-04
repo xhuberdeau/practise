@@ -1,8 +1,14 @@
 class StringCalculator {
-  add(value: string): string {
-    if (value === "") return "0";
+  add(...values: [string]): string {
+    let total = 0;
 
-    return this.sumCommaSeparatedNumbers(value).toString();
+    values.forEach((value: string) => {
+      if (value !== "") {
+        total += this.sumCommaSeparatedNumbers(value);
+      }
+    });
+
+    return total.toString();
   }
 
   private sumCommaSeparatedNumbers(numbers: string): number {
