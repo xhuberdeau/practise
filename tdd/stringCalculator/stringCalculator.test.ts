@@ -30,4 +30,10 @@ describe("String calculator", () => {
       expect(stringCalculator.add("3", "4", "5", "6")).toEqual("18");
     });
   });
+
+  describe("Allow new line as number separator", () => {
+    test('returns "7" for "3\n4"', () => {
+      expect(stringCalculator.add("3\n4")).toEqual("7");
+    });
+  });
 });
