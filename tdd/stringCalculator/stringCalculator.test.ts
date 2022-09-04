@@ -36,4 +36,18 @@ describe("String calculator", () => {
       expect(stringCalculator.add("3\n4")).toEqual("7");
     });
   });
+
+  describe("Allow custom separators", () => {
+    test('returns "3" for "//;\n1;2"', () => {
+      expect(stringCalculator.add("//;\n1;2")).toEqual("3");
+    });
+
+    test('returns "6" for "//|\n1|2|3"', () => {
+      expect(stringCalculator.add("//|\n1|2|3")).toEqual("6");
+    });
+
+    test('returns "6" for "//sep\n2sep3"', () => {
+      expect(stringCalculator.add("//sep\n2sep3")).toEqual("5");
+    });
+  });
 });
