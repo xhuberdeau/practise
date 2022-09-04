@@ -21,5 +21,9 @@ describe("Leap years", () => {
     test("2017 is not a leap year", () => {
       expect(leapYears(2017)).toBeFalsy();
     });
+
+    test("2018 is not a leap year", () => {
+      expect(leapYears(2018)).toBeFalsy();
+    });
   });
 });
