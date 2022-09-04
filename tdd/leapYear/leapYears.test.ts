@@ -16,4 +16,10 @@ describe("Leap years", () => {
       expect(leapYears(1800)).toBeFalsy();
     });
   });
+
+  describe("All years not divisible by 4 are NOT leap years", () => {
+    test("2017 is not a leap year", () => {
+      expect(leapYears(2017)).toBeFalsy();
+    });
+  });
 });
