@@ -15,4 +15,11 @@ describe("String calculator", () => {
     expect(stringCalculator.add("1")).toEqual("1");
   });
 
+  test('returns "3" for "1,2"', () => {
+    expect(stringCalculator.add("1,2")).toEqual("3");
+  });
+
+  test('returns "3.3" for "1.1,2.2"', () => {
+    expect(stringCalculator.add("1.1,2.2")).toEqual("3.3");
+  });
 });
