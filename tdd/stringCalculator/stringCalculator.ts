@@ -1,39 +1,42 @@
 class StringCalculator {
-  NUMBER_SEPARATORS = [",", "\n"];
+  INTERNAL_SEPARATOR = ",";
+  NUMBER_SEPARATORS = [this.INTERNAL_SEPARATOR, "\n"];
 
-  add(...values: [string]): string {
+  add(...expressions: [string]): string {
     let total = 0;
 
-    values.forEach((value: string) => {
-      if (value !== "") {
-        total += this.sumNumbers(this.extractNumbersFromString(value));
-      }
-    });
+    expressions
+      .filter((expression: string) => expression !== "")
+      .map((expression: string) =>
+        this.replaceAllSeparatorsByInternalSeparator(expression)
+      )
+      .map((expression: string) => this.extractNumbers(expression))
+      .forEach((numbers: number[]) => {
+        total += this.sumNumbers(numbers);
+      });
 
     return total.toString();
   }
 
-  private sumNumbers(numbers: string[]): number {
-    return Number(
-      numbers
-        .reduce((acc: number, value: string) => acc + parseFloat(value), 0)
-        .toFixed(2)
+  private extractNumbers(expression: string): number[] {
+    return expression
+      .split(this.INTERNAL_SEPARATOR)
+      .map((number: string) => parseFloat(number));
+  }
+
+  private replaceAllSeparatorsByInternalSeparator(expression: string): string {
+    return expression.replace(
+      new RegExp(this.NUMBER_SEPARATORS.join("|"), "gi"),
+      this.INTERNAL_SEPARATOR
     );
   }
 
-  private extractNumbersFromString(numbers: string): string[] {
-    let extractedNumbers: string[] = [numbers];
-
-    this.NUMBER_SEPARATORS.forEach((separator: string) => {
-      extractedNumbers = extractedNumbers.reduce(
-        (acc: string[], element: string) => {
-          return [...acc, ...element.split(separator)];
-        },
-        []
-      );
-    }, []);
-
-    return extractedNumbers;
+  private sumNumbers(numbers: number[]): number {
+    return Number(
+      numbers
+        .reduce((acc: number, number: number) => acc + number, 0)
+        .toFixed(2)
+    );
   }
 }
 
