@@ -2,14 +2,16 @@ class StringCalculator {
   add(value: string): string {
     if (value === "") return "0";
 
-    const sum = Number(
-      value
+    return this.sumCommaSeparatedNumbers(value).toString();
+  }
+
+  private sumCommaSeparatedNumbers(numbers: string): number {
+    return Number(
+      numbers
         .split(",")
         .reduce((acc: number, value: string) => acc + parseFloat(value), 0)
         .toFixed(2)
     );
-
-    return sum.toString();
   }
 }
 
