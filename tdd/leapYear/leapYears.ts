@@ -1,7 +1,11 @@
 const leapYears = (year: number) => {
-  if (year % 100 === 0 && !(year % 400 === 0)) return false;
+  if (isDivisbleBy100(year) && !isDivisbleBy400(year)) return false;
 
   return true;
 };
+
+const isDivisbleBy400 = (value: number) => divisible(value, 400);
+const isDivisbleBy100 = (value: number) => divisible(value, 100);
+const divisible = (value: number, divider: number) => value % divider === 0;
 
 export default leapYears;
