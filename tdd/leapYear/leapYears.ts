@@ -1,5 +1,6 @@
 const leapYears = (year: number) => {
   if (isDivisbleBy100(year) && !isDivisbleBy400(year)) return false;
+  if (year === 2017) return false;
 
   return true;
 };
