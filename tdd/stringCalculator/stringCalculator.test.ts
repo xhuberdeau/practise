@@ -50,4 +50,10 @@ describe("String calculator", () => {
       expect(stringCalculator.add("//sep\n2sep3")).toEqual("5");
     });
   });
+
+  describe("negative numbers", () => {
+    test('returns "Negative not allowed : -1" for "-1,2"', () => {
+      expect(stringCalculator.add("-1,2")).toEqual("Negative not allowed : -1");
+    });
+  });
 });

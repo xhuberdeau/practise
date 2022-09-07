@@ -1,10 +1,11 @@
 import Expression from "./expression";
+import NumberObject from "./NumberValidator";
 
 class ExpressionNumberExtractor {
   private static INTERNAL_SEPARATOR = ",";
   private static DEFAULT_NUMBER_SEPARATORS = [this.INTERNAL_SEPARATOR, "\n"];
 
-  static extractNumbers(expression: Expression): number[] {
+  static extractNumbers(expression: Expression): NumberObject[] {
     const expressionWithOneSeparator =
       this.replaceAllSeparatorsByInternalSeparator(
         expression.getExpression(),
@@ -13,7 +14,7 @@ class ExpressionNumberExtractor {
 
     return expressionWithOneSeparator
       .split(this.INTERNAL_SEPARATOR)
-      .map((number: string) => parseFloat(number));
+      .map((number: string) => new NumberObject(parseFloat(number)));
   }
 
   private static replaceAllSeparatorsByInternalSeparator(
