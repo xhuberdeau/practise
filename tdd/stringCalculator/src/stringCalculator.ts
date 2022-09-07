@@ -1,7 +1,7 @@
 import Expression from "./expression";
 import ExpressionNumbersExtractor from "./expressionNumbersExtractor";
 import ExpressionNumbersValidator from "./expressionNumbersValidator";
-import NumberObject from "./NumberValidator";
+import NumberObject from "./number";
 
 class StringCalculator {
   add(...expressions: [string]): string {

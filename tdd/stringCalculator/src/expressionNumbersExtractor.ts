@@ -1,5 +1,5 @@
 import Expression from "./expression";
-import NumberObject from "./NumberValidator";
+import NumberObject from "./number";
 
 class ExpressionNumbersExtractor {
   private static INTERNAL_SEPARATOR = ",";

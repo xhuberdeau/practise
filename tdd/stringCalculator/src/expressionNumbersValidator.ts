@@ -1,4 +1,4 @@
-import NumberObject from "./NumberValidator";
+import NumberObject from "./number";
 
 class ExpressionNumbersValidator {
   constructor(private numbers: NumberObject[]) {}
