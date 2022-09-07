@@ -24,7 +24,7 @@ class StringCalculator {
       .reduce(
         (acc: NumberObject[], expression: Expression) => [
           ...acc,
-          ...ExpressionNumberExtractor.extractNumbers(expression),
+          ...ExpressionNumberExtractor.extractNumbersFromExpression(expression),
         ],
         []
       );
