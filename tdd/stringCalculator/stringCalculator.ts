@@ -1,12 +1,12 @@
 import Expression from "./expression";
-import ExpressionNumberExtractor from "./expressionNumberExtractor";
+import ExpressionNumbersExtractor from "./expressionNumbersExtractor";
 import ExpressionNumbersValidator from "./expressionNumbersValidator";
 import NumberObject from "./NumberValidator";
 
 class StringCalculator {
   add(...expressions: [string]): string {
     const extractedNumbers =
-      ExpressionNumberExtractor.extractNumbersFromExpressions(
+      ExpressionNumbersExtractor.extractNumbersFromExpressions(
         ...expressions.map((expression) => new Expression(expression))
       );
 

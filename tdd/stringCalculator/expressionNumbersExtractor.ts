@@ -1,7 +1,7 @@
 import Expression from "./expression";
 import NumberObject from "./NumberValidator";
 
-class ExpressionNumberExtractor {
+class ExpressionNumbersExtractor {
   private static INTERNAL_SEPARATOR = ",";
   private static DEFAULT_NUMBER_SEPARATORS = [this.INTERNAL_SEPARATOR, "\n"];
 
@@ -53,4 +53,4 @@ class ExpressionNumberExtractor {
   }
 }
 
-export default ExpressionNumberExtractor;
+export default ExpressionNumbersExtractor;
