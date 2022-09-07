@@ -2,23 +2,23 @@ import Expression from "./expression";
 import ExpressionNumberExtractor from "./expressionNumberExtractor";
 
 class StringCalculator {
-  CUSTOM_SEPARATORS_DECLARATION_START = "//";
-  INTERNAL_SEPARATOR = ",";
-  DEFAULT_NUMBER_SEPARATORS = [this.INTERNAL_SEPARATOR, "\n"];
-
   add(...expressions: [string]): string {
-    let total = 0;
-
-    expressions
-      .map((expression: string) => new Expression(expression))
-      .map((expression: Expression) =>
-        ExpressionNumberExtractor.extractNumbers(expression)
-      )
-      .forEach((numbers: number[]) => {
-        total += this.sumNumbers(numbers);
-      });
+    const extractedNumbers = this.extractNumbers(...expressions);
+    const total = this.sumNumbers(extractedNumbers);
 
     return total.toString();
+  }
+
+  private extractNumbers(...expressions: [string]): number[] {
+    return expressions
+      .map((expression: string) => new Expression(expression))
+      .reduce(
+        (acc: number[], expression: Expression) => [
+          ...acc,
+          ...ExpressionNumberExtractor.extractNumbers(expression),
+        ],
+        []
+      );
   }
 
   private sumNumbers(numbers: number[]): number {
