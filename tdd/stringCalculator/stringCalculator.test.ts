@@ -62,4 +62,10 @@ describe("String calculator", () => {
       );
     });
   });
+
+  describe("Add multiplication", () => {
+    test('returns "480" for "3,2", "4,2,1", "10"', () => {
+      expect(stringCalculator.multiply("3,2", "4,2,1", "10")).toEqual("480");
+    });
+  });
 });
