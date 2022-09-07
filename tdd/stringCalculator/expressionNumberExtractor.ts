@@ -5,7 +5,21 @@ class ExpressionNumberExtractor {
   private static INTERNAL_SEPARATOR = ",";
   private static DEFAULT_NUMBER_SEPARATORS = [this.INTERNAL_SEPARATOR, "\n"];
 
-  static extractNumbersFromExpression(expression: Expression): NumberObject[] {
+  static extractNumbersFromExpressions(
+    ...expressions: Expression[]
+  ): NumberObject[] {
+    return expressions.reduce(
+      (acc: NumberObject[], expression: Expression) => [
+        ...acc,
+        ...this.extractNumbersFromExpression(expression),
+      ],
+      []
+    );
+  }
+
+  private static extractNumbersFromExpression(
+    expression: Expression
+  ): NumberObject[] {
     const expressionWithOneSeparator =
       this.replaceAllSeparatorsByInternalSeparator(
         expression.getExpression(),

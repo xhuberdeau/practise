@@ -5,7 +5,11 @@ import NumberObject from "./NumberValidator";
 
 class StringCalculator {
   add(...expressions: [string]): string {
-    const extractedNumbers = this.extractNumbers(...expressions);
+    const extractedNumbers =
+      ExpressionNumberExtractor.extractNumbersFromExpressions(
+        ...expressions.map((expression) => new Expression(expression))
+      );
+
     const validation = new ExpressionNumbersValidator(
       extractedNumbers
     ).validateNumbers();
@@ -13,21 +17,8 @@ class StringCalculator {
     if (validation !== null) {
       return validation;
     }
-    const total = this.sumNumbers(extractedNumbers);
 
-    return total.toString();
-  }
-
-  private extractNumbers(...expressions: [string]): NumberObject[] {
-    return expressions
-      .map((expression: string) => new Expression(expression))
-      .reduce(
-        (acc: NumberObject[], expression: Expression) => [
-          ...acc,
-          ...ExpressionNumberExtractor.extractNumbersFromExpression(expression),
-        ],
-        []
-      );
+    return this.sumNumbers(extractedNumbers).toString();
   }
 
   private sumNumbers(numbers: NumberObject[]): number {
