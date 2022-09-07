@@ -1,10 +1,7 @@
 import NumberObject from "./NumberValidator";
 
 class ExpressionNumbersValidator {
-  private numbers: NumberObject[];
-  constructor(numbers: NumberObject[]) {
-    this.numbers = numbers;
-  }
+  constructor(private numbers: NumberObject[]) {}
 
   validateNumbers(): null | string {
     const negativeNumbers = this.gatherNegativeNumbers();

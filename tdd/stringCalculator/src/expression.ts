@@ -1,11 +1,7 @@
 class Expression {
   CUSTOM_SEPARATORS_DECLARATION_START = "//";
 
-  protected expression: string;
-
-  constructor(expression: string) {
-    this.expression = expression;
-  }
+  constructor(private expression: string) {}
 
   getCustomSeparator(): string | undefined {
     if (this.expression.startsWith(this.CUSTOM_SEPARATORS_DECLARATION_START)) {

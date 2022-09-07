@@ -1,8 +1,5 @@
 class NumberObject {
-  private number: number;
-  constructor(number: number) {
-    this.number = number;
-  }
+  constructor(private number: number) {}
 
   isPositive(): boolean {
     return this.number >= 0;
