@@ -55,5 +55,11 @@ describe("String calculator", () => {
     test('returns "Negative not allowed : -1" for "-1,2"', () => {
       expect(stringCalculator.add("-1,2")).toEqual("Negative not allowed : -1");
     });
+
+    test('returns "Negative not allowed : -4, -5" for "2,-4,-5"', () => {
+      expect(stringCalculator.add("2,-4,-5")).toEqual(
+        "Negative not allowed : -4, -5"
+      );
+    });
   });
 });

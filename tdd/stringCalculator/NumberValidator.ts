@@ -4,12 +4,8 @@ class NumberObject {
     this.number = number;
   }
 
-  isValid(): null | string {
-    if (this.number < 0) {
-      return `Negative not allowed : ${this.number}`;
-    }
-
-    return null;
+  isPositive(): boolean {
+    return this.number >= 0;
   }
 
   getValue(): number {

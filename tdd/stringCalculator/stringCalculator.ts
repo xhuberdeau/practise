@@ -1,15 +1,17 @@
 import Expression from "./expression";
 import ExpressionNumberExtractor from "./expressionNumberExtractor";
+import ExpressionNumbersValidator from "./expressionNumbersValidator";
 import NumberObject from "./NumberValidator";
 
 class StringCalculator {
   add(...expressions: [string]): string {
     const extractedNumbers = this.extractNumbers(...expressions);
-    const invalidNumber = extractedNumbers.find(
-      (number) => number.isValid() !== null
-    );
-    if (invalidNumber) {
-      return invalidNumber.isValid();
+    const validation = new ExpressionNumbersValidator(
+      extractedNumbers
+    ).validateNumbers();
+
+    if (validation !== null) {
+      return validation;
     }
     const total = this.sumNumbers(extractedNumbers);
 
