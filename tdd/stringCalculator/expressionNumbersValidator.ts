@@ -7,21 +7,21 @@ class ExpressionNumbersValidator {
   }
 
   validateNumbers(): null | string {
-    const invalidNumbers = [];
-    this.numbers.forEach((number) => {
-      if (!number.isPositive()) {
-        invalidNumbers.push(number);
-      }
-    });
+    const negativeNumbers = this.gatherNegativeNumbers();
 
-    if (invalidNumbers.length > 0) {
-      const invalidNumberStringList = invalidNumbers
+    if (negativeNumbers.length > 0) {
+      const negativeNumberStringList = negativeNumbers
         .map((number) => number.getValue())
         .join(", ");
-      return `Negative not allowed : ${invalidNumberStringList}`;
+
+      return `Negative not allowed : ${negativeNumberStringList}`;
     }
 
     return null;
+  }
+
+  private gatherNegativeNumbers(): NumberObject[] {
+    return this.numbers.filter((number) => !number.isPositive());
   }
 }
 
