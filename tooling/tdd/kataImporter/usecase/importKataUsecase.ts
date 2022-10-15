@@ -2,7 +2,7 @@ import KataProvider from "../port/kataProvider.js";
 import KataSaver from "../port/kataSaver.js";
 import KataPrompter from "../port/kataPrompter";
 
-export class ImportKataUsecase {
+class ImportKataUsecase {
   public async execute(
     kataProvider: KataProvider,
     kataPrompter: KataPrompter,
@@ -13,3 +13,5 @@ export class ImportKataUsecase {
     await kataSaver.saveKata(selectedKata);
   }
 }
+
+export default ImportKataUsecase;

@@ -1,10 +1,10 @@
+import CLIKataPrompter from "./adapter/CLIKataPrompter.js";
 import CodingDojoKataProvider from "./adapter/codingDojoKataProvider.js";
 import FileSystemKataSaver from "./adapter/fileSystemKataSaver.js";
-import { ImportKataUsecase } from "./usecase/importKataUsecase.js";
-import InquirerKataPrompter from "./adapter/inquirerKataPrompter.js";
+import ImportKataUsecase from "./usecase/importKataUsecase.js";
 
 new ImportKataUsecase().execute(
   new CodingDojoKataProvider(),
-  new InquirerKataPrompter(),
+  new CLIKataPrompter(),
   new FileSystemKataSaver()
 );

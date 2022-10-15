@@ -2,7 +2,7 @@ import inquirer from "inquirer";
 import Kata from "../model/kata.js";
 import KataPrompter from "../port/kataPrompter.js";
 
-class InquirerKataPrompter implements KataPrompter {
+class CLIKataPrompter implements KataPrompter {
   public async promptKata(katas: Kata[]): Promise<Kata> {
     const selectedKata = await inquirer.prompt([
       {
@@ -17,4 +17,4 @@ class InquirerKataPrompter implements KataPrompter {
   }
 }
 
-export default InquirerKataPrompter;
+export default CLIKataPrompter;
