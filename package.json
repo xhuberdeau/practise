@@ -1,0 +1,36 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xhuberdeau/practise.git",
+  "author": "Xavier <xavier.huberdeau@ilek.fr>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.2",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "jest": "^29.0.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts --no-error-on-unmatched-pattern",
+    "lint:fix": "eslint . --ext .ts --fix --no-error-on-unmatched-pattern",
+    "test": "jest --passWithNoTests",
+    "test:dev": "jest --watchAll",
+    "prepare": "husky install",
+    "kata": "ts-node --esm tooling/tdd/kataImporter/index.ts"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.3"
+  }
+}

@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-us">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700|Raleway|Poiret+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://codingdojo.org/css/codingdojo.css">
+  <title>Kata - Coding Dojo</title>
+  <meta name="generator" content="Hugo 0.104.0" />
+
+  
+  <link rel="canonical" href="https://codingdojo.org/kata/">
+  
+
+  <meta property="og:url" content="https://codingdojo.org/kata/">
+  <meta property="og:title" content="Coding Dojo">
+  
+  <meta name="apple-mobile-web-app-title" content="Coding Dojo">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://codingdojo.org/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="https://codingdojo.org/images/favicon.ico">
+</head>
+
+<body>
+
+  <header class="main-header">
+  <h1><a href= />Coding Dojo</a></h1>
+  <nav class="main-header__nav main-nav">
+    <ul class="main-nav__list"><li class="main-nav__item">
+        <a href="https://codingdojo.org/dojo/" class="main-nav__link">
+          Dojos
+        </a>
+      </li><li class="main-nav__item main-nav__item--active">
+        <a href="https://codingdojo.org/kata/" class="main-nav__link">
+          Kata
+        </a>
+      </li><li class="main-nav__item">
+        <a href="https://codingdojo.org/people/" class="main-nav__link">
+          People
+        </a>
+      </li><li class="main-nav__item">
+        <a href="https://codingdojo.org/practices/" class="main-nav__link">
+          Practices
+        </a>
+      </li><li class="main-nav__item">
+        <a href="https://codingdojo.org/record/" class="main-nav__link">
+          Records
+        </a>
+      </li><li class="main-nav__item">
+        <a href="https://codingdojo.org/solution/" class="main-nav__link">
+          Solutions
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div class="top-right-corner ribbon gradient">
+  <div class="seams">
+    <a class="" href="https://gitlab.com/codingdojo-org" title="View on Gitlab">
+      Edit on Gitlab
+    </a>
+  </div>
+</div>
+
+
+    <div class="card-row">
+
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Anagram/">Anagram</a></h2>
+        <div class="content">
+          About this Kata This Kata was posted as the problem to be solved in a &ldquo;self-documenting code contest&rdquo;.
+The results of the code contest can be found here.
+Problem Description Step 1 Write a program that generates all two-word anagrams of the string &ldquo;documenting&rdquo;. You must focus on the readability of your code, and you must not include any kind of documentations to it. The goal is to create a code that everybody can read and understand easily.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Anagram/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Args/">Args</a></h2>
+        <div class="content">
+          About this Kata This Kata is presented in Robert C.. Martin&rsquo;s book &ldquo;Clean Code&rdquo;, chapter 14.
+Problem Description Most of us have had to parse command-line arguments from time to time. If we don&rsquo;t have a convenient utility, then we simply walk the array of strings that is passed into the main function. There are several good utilities available from various sources, but they probably don&rsquo;t do exactly what we want.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Args/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/BankOCR/">Bank OCR</a></h2>
+        <div class="content">
+          This Kata was presented at XP2006 by EmmanuelGaillot and ChristopheThibaut .
+Contents:
+Problem Description Clues Suggested Test Cases Resources Comments from those who are working on this Kata Problem Description User Story 1 You work for a bank, which has recently purchased an ingenious machine to assist in reading letters and faxes sent in by branch offices. The machine scans the paper documents, and produces a file with a number of entries which each look like this:
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/BankOCR/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/birthday-greetings/">Birthday Greetings</a></h2>
+        <div class="content">
+          As you&rsquo;re a very friendly person, you would like to send a birthday note to all the friends you have. But you have a lot of friends and a bit lazy, it may take some times to write all the notes by hand.
+The good news is that computers can do it automatically for you.
+Imagine you have a flat file with all your friends :
+last_name, first_name, date_of_birth, email Doe, John, 1982/10/08, john.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/birthday-greetings/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Bowling/">Bowling</a></h2>
+        <div class="content">
+          This description is based on that at Adventures in C#: The Bowling Game
+Problem Description Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game. Here are some things that the program will not do:
+We will not check for valid rolls. We will not check for correct number of rolls and frames. We will not provide scores for intermediate frames.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Bowling/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/christmas-delivery/">Christmas delivery</a></h2>
+        <div class="content">
+          Origin This kata is largely inspired by the work of Joe Wright in https://code.joejag.com/coding-dojo/christmas-delivery/
+Kata Due to huge population growth in the world, Santa Claus is having to change his existing process.
+Currently only one Elf can put a present on his Sleigh at a time and Santa wants to be able to be able to use multiple Elves. Specification
+In order to receive presents yourself this year, you&rsquo;ll have to design a system to support his changing process.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/christmas-delivery/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/CodeCracker/">Code Cracker</a></h2>
+        <div class="content">
+          Code Cracker
+Problem Description Given an alphabet decryption key like the one below, create a program that can crack any message using the decryption key.
+Alphabet
+a b c d e f g h i j k l m n o p q r s t u v w x y z Decryption Key
+! ) &quot; ( £ * % &amp; &gt; &lt; @ a b c d e f g h i j k l m n o You could also create a encryption program that will encrypt any message you give it using the key.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/CodeCracker/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/CQRS_Booking/">CQRS Booking</a></h2>
+        <div class="content">
+          You should implement a simple booking soluiton in CQRS architecture.
+About CQRS CQRS for Command Query Responsibility Segregation Pattern.
+A query returns data and does not alter the state of the object. A command changes the state of an object but does not return any data.
+We will split our code in read ans write code to really live this pattern
+Booking subject We whant to make a booking solution for one hotel.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/CQRS_Booking/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/cupcake/">Cupcake</a></h2>
+        <div class="content">
+          About this kata This kata was originally made to implement the decorator and composite pattern.
+Problem Description Write a program that can build many cakes with many toppings like : &ldquo;Cupcake with chocolate and nuts&rdquo; Or &ldquo;🧁 with black 🍫 and 🥜 and 🍬&rdquo;. Be carful the order of topping is very important.
+Write a function or method they can show the name of cake.
+Write a function they can show the price of cake.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/cupcake/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/DepthFirstSearch/">Depth first search</a></h2>
+        <div class="content">
+          About this Kata Difficulty: easy
+Good for teaching: recursion
+Related Katas: KataBreadthFirstSearch
+Problem Description Depth-first search is not just an AI technique it is also the standard way that trees (ubiquitous in computer science) are traversed.
+Clues For this (easiest) form of depth-first search, steer towards using the function-call stack, rather than a stack data structure.
+Try to avoid implementing a Graph or Maze or Problem class (even as a mocked interface) for your depth-first-searcher to traverse.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/DepthFirstSearch/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Diamond/">Diamond</a></h2>
+        <div class="content">
+          <h2 id="about-this-kata">About this Kata</h2>
+<p><a href="http://alistair.cockburn.us/Thinking+before+programming">Alistair Cockburn wrote a blog post</a> about this kata, in response to the <a href="http://claysnow.co.uk/recycling-tests-in-tdd/">Seb Rose kata proposition</a>.</p>
+<h2 id="problem-description">Problem Description</h2>
+<p>Given a letter, print a diamond starting with ‘A’ with the supplied letter at the widest point.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Diamond/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/DictionaryReplacer/">Dictionary replacer</a></h2>
+        <div class="content">
+          This kata is about making a simple string replacer. It is inspired by Corey Haines Lightning talk about practicing. (aac2009.confreaks.com/06-feb-2009-20-30-lightning-talk-under-your-fingers-corey-haines.html)
+Create a method that takes a string and a dictionary, and replaces every key in the dictionary pre and suffixed with a dollar sign, with the corresponding value from the Dictionary.
+Tests
+input : &ldquo;&rdquo;, dict empty, output:&quot;&quot;
+input : &ldquo;$temp$&rdquo;, dict [&ldquo;temp&rdquo;, &ldquo;temporary&rdquo;], output: &ldquo;temporary&rdquo;
+input : &ldquo;$temp$ here comes the name $name$&rdquo;, dict [&ldquo;temp&rdquo;, &ldquo;temporary&rdquo;] [&ldquo;name&rdquo;, &ldquo;John Doe&rdquo;], output : &ldquo;temporary here comes the name John Doe&rdquo;
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/DictionaryReplacer/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/eight-queens/">Eight Queens</a></h2>
+        <div class="content">
+          Kata This kata is based on the classic chess rules. You must put eight chess queens on an 8×8 chessboard such that none of them is able to capture any other using the standard chess queen&rsquo;s moves.
+Tips: you could have only one queen by row and column.
+Step 1 Use multiple TDD loops to build a programm they find all solutions.
+Tree traversal Rewrite a new programm to use a Depth-first walk.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/eight-queens/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/elephant-carpaccio/">Elephant Carpaccio</a></h2>
+        <div class="content">
+          Largely inspired by : https://docs.google.com/document/d/1Ls6pTmhY_LV8LwFiboUXoFXenXZl0qVZWPZ8J4uoqpI
+Instructions Break into teams of 2-3 people, one workstation per team. Preparation - Each team writes down on paper the 10-20 demo-able user stories (&ldquo;slices&rdquo;) they will develop and possibly demo. Each should be doable in 3-8 minutes. No slice is just mockup of UI, creation of a data table or data structure. All demos show real input &amp; output (not test harness). Discussion - Instructor/facilitator leads discussion of the slices, what is and isn&rsquo;t acceptable, solicits ways to slice finer.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/elephant-carpaccio/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Employee-Report/">Employee Report</a></h2>
+        <div class="content">
+          About this Kata This Kata was developed to show how overspecification of assertions harms maintainability of tests. A blog post with a possible solution can be found here: https://dev.to/webpapaya/writing-better-test-assertions-lml
+Problem Description You&rsquo;re building an employee management system of a local grocery store. The shop-owner wants to open the shop on Sunday and due to legal restrictions employees younger than 18 years are not allowed to work Sundays. The employee asks for a reporting feature so she can schedule work shifts.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Employee-Report/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/FizzBuzz/">FizzBuzz</a></h2>
+        <div class="content">
+          About this Kata This Kata was posted here by someone anonymously. Michael Feathers and EmilyBache performed it at agile2008 when competing in &ldquo;Programming with the stars&rdquo; in python, in 4 minutes.
+Difficulty: Easy Good for teaching: TDD , BabySteps
+Problem Description Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more &ldquo;fun&rdquo; by introducing a &ldquo;game&rdquo;.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/FizzBuzz/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/FooBarQix/">FooBarQix</a></h2>
+        <div class="content">
+          You should implement a function String compute(String) which implements the following rules.
+Step 1 Rules If the number is divisible by 3, write &ldquo;Foo&rdquo; instead of the number If the number is divisible by 5, add &ldquo;Bar&rdquo; If the number is divisible by 7, add &ldquo;Qix&rdquo; For each digit 3, 5, 7, add &ldquo;Foo&rdquo;, &ldquo;Bar&rdquo;, &ldquo;Qix&rdquo; in the digits order. Examples 1 =&gt; 1 2 =&gt; 2 3 =&gt; FooFoo (divisible by 3, contains 3) 4 =&gt; 4 5 =&gt; BarBar (divisible by 5, contains 5) 6 =&gt; Foo (divisible by 3) 7 =&gt; QixQix (divisible by 7, contains 7) 8 =&gt; 8 9 =&gt; Foo 10 =&gt; Bar 13 =&gt; Foo 15 =&gt; FooBarBar (divisible by 3, divisible by 5, contains 5) 21 =&gt; FooQix 33 =&gt; FooFooFoo (divisible by 3, contains two 3) 51 =&gt; FooBar 53 =&gt; BarFoo Step 2 We have a new business request: we must keep a trace of 0 in numbers, each 0 must be replaced by char &ldquo;*&rdquo;.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/FooBarQix/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/GameOfLife/">Game of life</a></h2>
+        <div class="content">
+          About this Kata This was presented as a PreparedKata at XP2005, by Emmanuel Gaillot.
+Difficulty - medium
+Similar Katas - KataMinesweeper , KataReversi
+Problem Description This Kata is about calculating the next generation of Conway&rsquo;s game of life, given any starting position. See http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life for background.
+You start with a two dimensional grid of cells, where each cell is either alive or dead. In this version of the problem, the grid is finite, and no life can exist off the edges.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/GameOfLife/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/gilded-rose/">Gilded Rose</a></h2>
+        <div class="content">
+          ## About this Kata
+A refactoring Kata, bases on existing code.
+Problem Description Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We have a system in place that updates our inventory for us.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/gilded-rose/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Greed/">Greed</a></h2>
+        <div class="content">
+          &lt;http://en.wikipedia.org/wiki/Greed_%28dice_game%29&gt; Greed (Dice Game)
+Write a class Greed with a score() method that accepts an array of die values (up to 6). Scoring rules are as follows:
+A single one (100) A single five (50) Triple ones [1,1,1] (1000) Triple twos [2,2,2] (200) Triple threes [3,3,3] (300) Triple fours [4,4,4] (400) Triple fives [5,5,5] (500) Triple sixes [6,6,6] (600) Note that the scorer should work for any number of dice up to 6.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Greed/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Hello/">Hello</a></h2>
+        <div class="content">
+          About this Kata This is the famous &quot; [Hello World] &quot; program. Hello World is perhaps the first Kata &ndash; it predates even the term &ldquo;kata&rdquo;. But people have been doing Hello World as effectively a kata for over thirty years. The seminal book [The C Programming Language] has created the tradition of making it the first program in any new language, environment, or methodology. So it follows that the first kata should be Hello World.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Hello/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/JEEWebAuthentication/">JEE WebAuthentication</a></h2>
+        <div class="content">
+          Background In this Kata, your a programmer at ABC Corp and you&rsquo;re making a new web app from scratch. After the head architect started working on this, it&rsquo;s now up to you to make sure these tasks are completed:
+allow authentication using request parameters (GET or POST) all authentication/login attempts should be verified agains LDAP successful logins should be recorded in the single sign on registry However, you&rsquo;re not the only programmer (team) adressing this web app, so the LDAP is written by another team and what you have right now is this interface:
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/JEEWebAuthentication/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Lags/">Lags</a></h2>
+        <div class="content">
+          About this Kata This kata seems simple at first a glance, but wait to explore it before said it&rsquo;s an easy one.
+Problem Description ABEAS Corp is a little company with only one plane. ABEAS Corp&rsquo;s customers ask for this plane to help them sometimes. They send rent request with start time, travel duration, and a price they will paid.
+You could help ABEAS Corp by finding the best request combination to maximize gain.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Lags/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/LangtonAnt/">Langton Ant</a></h2>
+        <div class="content">
+          About this Kata The purpose is to build a cellular automaton : Langton Ant
+Rules Squares on a plane are colored variously either black or white. We arbitrarily identify one square as the &ldquo;ant&rdquo;. The ant can travel in any of the four cardinal directions at each step it takes. The &ldquo;ant&rdquo; moves according to the rules below:
+At a white square, turn 90° right, flip the color of the square, move forward one unit At a black square, turn 90° left, flip the color of the square, move forward one unit Langton&rsquo;s ant can also be described as a cellular automaton, where the grid is colored black or white and the “ant” square has one of eight different colors assigned to encode the combination of black/white state and the current direction of motion of the ant.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/LangtonAnt/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/LeapYears/">Leap Years</a></h2>
+        <div class="content">
+          This short and simple Kata should be performed in pairs using Test Driven Development (TDD).
+Prior to 1582, the Julian Calendar was in wide use and defined leap years as every year divisible by 4. However, it was found in the late 16th century that the calendar year had drifted from the solar year by approximately 10 days. The Gregorian Calendar was defined in order to thin out the number of leap years and to more closely align the calendar year with the solar year.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/LeapYears/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/manhattan-distance/">Manhattan Distance</a></h2>
+        <div class="content">
+          Manhattan distance is the distance between two points in a grid (like the grid-like street geography of the New York borough of Manhattan) calculated by only taking a vertical and/or horizontal path.
+Write a function int manhattanDistance(Point, Point) that returns the Manhattan Distance between the two points.
+Potential constraints The class Point is immutable The class Point has no Getters, no Setters The class Point has no public properties (i.e. the internal state cannot be read from outside the class).
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/manhattan-distance/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/MarkovChain/">Markov Chain</a></h2>
+        <div class="content">
+          About this Kata Build a text generator based on a Markov Chain.
+more detail on wikipedia
+En français dans un premier temps Faire un programme qui prend deux paramètres : un entier (pour demander un nombre de mots) et un texte (qui sert de base d&rsquo;apprentissage); et qui génère un autre texte (de la longueur du paramètre.
+Alternative : Il faut faire un logiciel en deux partie.
+Une première partie qui analyse un texte pour en extraire des statistiques.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/MarkovChain/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/mars-rover/">Mars Rover</a></h2>
+        <div class="content">
+          You’re part of the team that make Mars Rover. Develop the simulator programm that take commands and map, they translates the commands and show the result position and direction of the Rover.
+Requirements Your program take in input
+the starting point (x,y) of a rover and the direction (N,S,E,W) it is facing a map describing obstacles positions the list of commands that move and turn the rover (⬆️ : move forward, ➡️ : turn right 90°, ⬅️ : turn left 90°) When the rover encounters an obstacle it do nothing.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/mars-rover/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Mastermind/">Mastermind</a></h2>
+        <div class="content">
+          Difficulty: medium
+Have you ever played Mastermind ? This game where one player, a codemaker, has to choose a secret combination of colored pegs and then make it guess to someone else, a codebreaker. The codemaker is answering to each guess attempt of the codebreaker by indicating only the number of well placed colors and the number of correct but misplaced colors.
+If you remember playing the game, being the one who guesses is very brain demanding, whereas the other player get bored rapidly.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Mastermind/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/mathematical-ast/">Mathematical AST</a></h2>
+        <div class="content">
+          Origin This kata was originaly write to implement the visitor pattern
+Kata Step 1 Write a program they build and Abstract Syntax Tree of a RPN mathematical expression from a string like:
+(+) Mathematical.parse(&quot;3 6 +&quot;) be produce / \ / \ 3 6 and
+(+) / \ / \ 3 (×) Mathematical.parse(&quot;3 6 -6 * +&quot;) be produce / \ / \ 6 -6 For the first test You must chose objects or structs you will have in your AST.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/mathematical-ast/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Minesweeper/">Minesweeper</a></h2>
+        <div class="content">
+          About this Kata Kata originated here: acm.uva.es/p/v101/10189.html
+Difficulty: Easy
+Problem Description Have you ever played Minesweeper? It&rsquo;s a cute little game which comes within a certain Operating System whose name we can&rsquo;t really remember. Well, the goal of the game is to find all the mines within an MxN field. To help you, the game shows a number in a square which tells you how many mines there are adjacent to that square.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Minesweeper/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/movie-rental/">Movie Rental</a></h2>
+        <div class="content">
+          The Martin Fowler&rsquo;s book &ldquo;Refactoring, Improving the Design of Existing Code&rdquo; start with a (very) simple example of refactoring of code.
+Actualy the statement method prints out a simple text output of a rental statement
+Rental Record for martin Ran 3.5 Trois Couleurs: Bleu 2 Amount owed is 5.5 You earned 2 frequent renter points We want to write an HTML version of the statement method :
+&lt;h1&gt;Rental Record for &lt;em&gt;martin&lt;/em&gt;&lt;/h1&gt; &lt;table&gt; &lt;tr&gt;&lt;td&gt;Ran&lt;/td&gt;&lt;td&gt;3.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/movie-rental/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/NearestColor/">Nearest color</a></h2>
+        <div class="content">
+          Introduction A color is composed by an amount of red, green and blue.
+In computer science, a way to represent a color is to compose between these three amount of colors.
+Each amount of color have a presence from 0 (the color is absent) to 255 (full presence of color).
+But, because some developers love hexadecimal, they decided to use numbers between 0 and F. So, 00 means 0 in decimal and FF means 255 in decimal.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/NearestColor/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Nim/">NimGame</a></h2>
+        <div class="content">
+          About this Kata Basic informations about Nim Game : https://en.wikipedia.org/wiki/Nim
+Difficulty: Easy
+Problem Description Build a Nim Game where you can play with two players.
+Start with 10 sticks, then you can add some game setup difficulty with variable started stick and players name, you can build an beautiful GUI too or just play in terminal.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Nim/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/NumberToLCD/">Number to LCD</a></h2>
+        <div class="content">
+          https://gist.github.com/arikfr/11362378#file-gistfile1-txt Goal: write a program that displays LCD style numbers.
+Part 1 Write a program that given a number (with arbitrary number of digits), converts it into LCD style numbers using the following format:
+_ _ _ _ _ _ _ | _| _||_||_ |_ ||_||_| ||_ _| | _||_| ||_| _| (each digit is 3 lines high)
+Note: Please do NOT read the second part before completing the first. Part of the purpose of this kata is to make you practice refactoring and adapting to changing requirements.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/NumberToLCD/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/NumbersInWords/">Numbers in words</a></h2>
+        <div class="content">
+          Problem Description It occurs now and then in real life that people want to write about money, especially about a certain amount of money. If it comes to cheques or contracts for example some nations have laws that state that you should write out the amount in words additionally to the amount in numbers to avoid fraud and mistakes. So if you want to transfer 745 $ to someone via cheque you have to fill out two fields:
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/NumbersInWords/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/orm/">ORM</a></h2>
+        <div class="content">
+          Kata Same object in database and business Write a contacts program they use an ORM to read and write Persons from an sqlite3 database
+Person has 3 attributes :
+Name Surname Birth date Tests DB and production DB we want to have one test DB named tests.db and one production db file set by environment variable DB_URL
+In production Data base we have all this contacts :
+Elon Musk: June 28, 1971 Kamala Harris: October 20, 1964 Joe Biden: November 20, 1942 Greta Thunberg: January 3, 2003 Donald Trump: June 14, 1946 Angela Merkel: July 17, 1954 Barack Obama: August 4, 1961 Mark Zuckerberg: May 14, 1984 Jeff Bezos: January 12, 1964 Version of schema add a version schema in your code and database
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/orm/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/PacMan/">PacMan</a></h2>
+        <div class="content">
+          About this Kata Difficulty: easy
+Good for teaching: does doing a SDUF (Small Design Up Front) taking monsters into account make a big difference in design and (initial and/or ongoing) velocity?
+Related Katas: GameOfLife - the board design was taken from there. We simulate a game you play continuously with turns.
+First performed January 6 during a devnology.nl event at Marktplaats.nl. Kicked off by Marc Evers and Rob Westgeest, initial steps brainstormed and facilitated by Willem van den Ende, programmed by a majority of the participants :)
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/PacMan/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/PaginationSeven/">Pagination Seven</a></h2>
+        <div class="content">
+          Problem description Pagination can be found in many websites on the Internet. Most of the time you can see the current page and going to the previous and the next page. Sometimes you can go to the first and the last page. Some information like total pages number can be shown.
+Aware of the need for all these contraints, we found a lot of pagination example like:
+Simple pagination:
+&lt; 42 &gt; Advanced pagination:
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/PaginationSeven/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/PokerHands/">Poker Hands</a></h2>
+        <div class="content">
+          About this Kata This kata is blatantly stolen from acm.uva.es/p/v103/10315.html It is a subset of KataTexasHoldEm , which is a very large Kata.
+Problem Description Your job is to compare several pairs of poker hands and to indicate which, if either, has a higher rank.
+Poker rules description A poker deck contains 52 cards - each card has a suit which is one of clubs, diamonds, hearts, or spades (denoted C, D, H, and S in the input data).
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/PokerHands/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Potter/">Potter</a></h2>
+        <div class="content">
+          If you want to try this Kata for yourself or at your dojo meeting, read the problem description and see if the Kata appeals to you. The rest is commentary and helpful clues for if you get stuck solving it. I would recommend trying the Kata for yourself before reading too much of it.
+Problem Description Once upon a time there was a series of 5 books about a very English hero called Harry.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Potter/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/QotdCgi/">Quote of the day</a></h2>
+        <div class="content">
+          About this Kata I teach web applications programming to undergraduates. I usually explain the stuff, point them to the book, and ask them to produce a finished web application as part of their examination. On some people it works and they make great apps. On other people it doesn&rsquo;t. This year I&rsquo;m trying a new approach, to teach with katas. I started with this small kata.
+There are two main differences with respect to the usual TDD katas.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/QotdCgi/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Range/">Range</a></h2>
+        <div class="content">
+          Range has a lot of nifty issues. integer range contains [2,6) contains {2,4}
+[2,6) doesn&rsquo;t contain {-1,1,6,10}
+getAllPoints [2,6) allPoints = {2,3,4,5}
+ContainsRange [2,5) doesn&rsquo;t contain [7,10)
+[2,5) doesn&rsquo;t contain [3,10)
+[3,5) doesn&rsquo;t contain [2,10)
+[2,10) contains [3,5]
+[3,5] contains [3,5)
+endPoints [2,6) endPoints = {2,5}
+[2,6] endPoints = {2,6}
+(2,6) endPoints = {3,5}
+(2,6] endPoints = {3,6}
+overlapsRange [2,5) doesn&rsquo;t overlap with [7,10)
+[2,10) overlaps with [3,5)
+[3,5) overlaps with [3,5)
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Range/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Reversi/">Reversi</a></h2>
+        <div class="content">
+          About this Kata This Kata was introduced to me by LaurentBossavit &ndash; EmilyBache
+Difficulty: Medium
+Problem Description Reversi is a board game for two players. More information can be found on Wikipedia en.wikipedia.org/wiki/Reversi . This Kata is to write a program that takes a current board position together with information about whose turn it is, and returns a list of the legal moves for that player. A move is only legal if it results in at least one of the opponent&rsquo;s counters being flipped.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Reversi/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/RomanCalculator/">Roman Calculator</a></h2>
+        <div class="content">
+          About this Kata CodersDojoSweden , running in Linköping, was looking for a new Kata which was sufficiently simple to get beginners up and running. ThomasNilsson suggested a calculator using Roman numerals.
+Problem Description &ldquo;As a Roman Bookkeeper I want to add Roman numbers because doing it manually is too tedious.&rdquo; Given the Roman numerals, (IVXLCDM which mean one, five, ten, fifty, hundred, fivehundred and a thousand respectively), create two numbers and add them.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/RomanCalculator/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/RomanNumerals/">Roman Numerals</a></h2>
+        <div class="content">
+          About this Kata I wasn&rsquo;t there, but I believe this Kata was performed at XP2001 by Kent Beck. Here is [a video of Karl Scotland doing this Kata in Excel at agile 2008] Here is [a video of JonJagger doing this Kata in Ruby using CyberDojo]
+Difficulty - Easy.
+Problem Description The Romans were a clever bunch. They conquered most of Europe and ruled it for hundreds of years. They invented concrete and straight roads and even bikinis [1].
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/RomanNumerals/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/RPN/">RPN Calculator</a></h2>
+        <div class="content">
+          An RPN calculator computes expressions written in Reverse Polish Notation.
+An RPN expression or postfix expression is one of the following :
+a number X, in wich case the value of the expression is that of X, a sequence of form E1 E2 OP where E1 and E2 are RPN expressions and OP is an arithmetic operation. Samples :
+20 5 / =&gt; 20/5 = 4 4 2 + 3 - =&gt; (4+2)-3 = 3 3 5 8 * 7 + * =&gt; ((5*8)+7)*3 = 141 Add the SQRT operation :
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/RPN/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/rsa/">RSA</a></h2>
+        <div class="content">
+          Origin RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem that is widely used for secure data transmission. It is also one of the oldest.
+Kata In this kata we will encrypt and decrypt a message with RSA algorythm.
+Build keys Find 2 primes numbers p and q such that (2^24 + 1) &lt; p × q &lt; 2^32 Compute N = p × q Compute n = (p − 1) × (q − 1) Choose c a coprime number with n such that 1 &lt; c &lt; n (N, c) is the public key
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/rsa/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/social-network/">Social Network</a></h2>
+        <div class="content">
+          About A very large subject to learn the exemple mapping workshop.
+Idea is to build a very light social network.
+Epics Posting: Thomas can publish messages a message. Reading: Alice can view all Thomas’s messages. Following: Charlie can subscribe to Thomas’s and Alice’s messages, and view an aggregated list of all subscriptions. Mentions: Alice can mention Charlie in a message using “@” like &ldquo;@Charlie&rdquo; Links: Thomas can share a link to a message Direct Messages: Alice can send a private message to Thomas 
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/social-network/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/StringCalculator/">String Calculator</a></h2>
+        <div class="content">
+          This classic kata guides you step by step through the implementation of a calculator that receives a String as input. It is a good exercise on refactoring and incremental implementation. It is also a good candidate for practising TDD.
+First step Create a function add that takes a String and returns a String:
+String add(String number) The method can take 0, 1 or 2 numbers separated by comma, and returns their sum.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/StringCalculator/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/sudoku/">Sudoku the concurrent resolver</a></h2>
+        <div class="content">
+          Inspired from Thien Que Nguyen and Pascal Van Cauwenberghe
+This kata whan to experience TDD and concurrent programming.
+Understand concurrent systems problems and solutions. Learn how you can apply Test Driven Design to concurrent code. Experience how a parallel computer works and is programmed. Discover how simple rules and collaboration can solve complicated problems Cell Specification Build a Cell class or struct they follow this rules :
+A Cell expresses which of the numbers 1.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/sudoku/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Tennis/">Tennis</a></h2>
+        <div class="content">
+          About this Kata This Kata is about implementing a simple tennis game. I came up with it while thinking about Wii tennis, where they have simplified tennis, so each set is one game.
+The scoring system is rather simple:
+Each player can have either of these points in one game &ldquo;love&rdquo; &ldquo;15&rdquo; &ldquo;30&rdquo; &ldquo;40&rdquo; If you have 40 and you win the point you win the game, however there are special rules.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Tennis/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/TexasHoldEm/">Texas HoldEm</a></h2>
+        <div class="content">
+          by Matthew D Moss, blatantly stolen from www.rubyquiz.com/quiz24.html If you want to try this Kata for yourself or at your dojo meeting, read the problem description and see if the Kata appeals to you. The rest is commentary and helpful clues for if you get stuck solving it. I would recommend trying the Kata for yourself before reading too much of it. For an easier kata, try KataPokerHands first.
+Difficulty: hard
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/TexasHoldEm/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/tic-tac-toe/">Tic Tac Toe</a></h2>
+        <div class="content">
+          About this kata Like many game kata, it&rsquo;s a good introduction to double loop TDD or BDD.
+Rules The rules of the tic tac toe game are the following:
+a game is over when all fields are taken a game is over when all fields in a column are taken by a player a game is over when all fields in a row are taken by a player a game is over when all fields in a diagonal are taken by a player a player can take a field if not already taken players take turns taking fields until the game is over there are two player in the game (X and O) Suggested Test Cases Given this game board +---+---+---+ | 1 | 2 | 3 | +---+---+---+ | 4 | 5 | 6 | +---+---+---+ | 7 | 8 | 9 | +---+---+---+ And it&#39;s the turn of player X When it play on cell 5 Then the board is now +---+---+---+ | 1 | 2 | 3 | +---+---+---+ | 4 | X | 6 | +---+---+---+ | 7 | 8 | 9 | +---+---+---+ And it&#39;s not the end of game.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/tic-tac-toe/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/TradingCardGame/">Trading Card Game</a></h2>
+        <div class="content">
+          About this Kata In this Kata you will be implementing a rudimentary two-player trading card game. The rules are loosely based on Blizzard Hearthstone ( http://us.battle.net/hearthstone/en/ ) which itself is an already much simpler and straight-forward game compared to other TCGs like Magic: The Gathering ( http://www.wizards.com/magic/ ).
+Difficulty: Medium/Hard Good for teaching: Test Doubles, Mocking, TDD, Refactoring, Clean Code Problem Description Preparation Each player starts the game with 30 Health and 0 Mana slots Each player starts with a deck of 20 Damage cards with the following Mana costs: 0,0,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,7,8 From the deck each player receives 3 random cards has his initial hand Gameplay The active player receives 1 Mana slot up to a maximum of 10 total slots The active player&rsquo;s empty Mana slots are refilled The active player draws a random card from his deck The active player can play as many cards as he can afford.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/TradingCardGame/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/TripService/">Trip Service</a></h2>
+        <div class="content">
+          About this Kata Kata for legacy code hands-on session. The objective is to test and refactor the legacy TripService class.
+The end result should be well-crafted code that express the domain.
+You can watch the video with my solution. Although quite long, I explain my whole thought process while writting tests, how I break dependencies, the reasons for refactoring and re-desining the code (tests and production code), and why certain steps are important.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/TripService/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Wallet/">Wallet</a></h2>
+        <div class="content">
+          Subject Given a Wallet containing Stocks, build a function that compute the value of wallet in a currency.
+The Stocks have a quantity and a StockType. The StockType can be for example petroleum, Euros, bitcoins and Dollars.
+To value the portfilio in a Currency you can use external api to provide rate exchanges (some are provided below).
+Object sample Value value = Wallet(Stock(5, PETROLEUM)).value(EUR, rateProvider) With rateProvider an implementation of this interface :
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Wallet/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/WordWrap/">Word wrap</a></h2>
+        <div class="content">
+          This kata is from Robert Martin and his blog includes a solution in Java [1] .
+Problem Description You write a class called Wrapper, that has a single static function named wrap that takes two arguments, a string, and a column number. The function returns the string, but with line breaks inserted at just the right places to make sure that no line is longer than the column number. You try to break lines at word boundaries.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/WordWrap/" class="button">read more</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><a href="https://codingdojo.org/kata/Yahtzee/">Yahtzee</a></h2>
+        <div class="content">
+          About this Kata This problem is based on Ruby Quiz #19 ( http://rubyquiz.com/quiz19.html ). The kata takes about 20 minutes with practice and 2 hours in a dojo setting.
+Problem Description The game of yahtzee is a simple dice game. Each round, each player rolls five six sided dice. The player may choose to reroll some or all of the dice up to three times (including the original roll). The player then places the roll at a category, such as ones, twos, sixes, pair, two pairs etc.
+        </div>
+        <div class="card-footer">
+          <a href="https://codingdojo.org/kata/Yahtzee/" class="button">read more</a>
+        </div>
+      </div>
+      
+
+    </div>
+  <footer class="bottom">
+  <nav>
+    <ul>
+
+      
+      <li><a href="https://codingdojo.org/">fr</a></li>
+      
+      <li><a href="https://codingdojo.org/">en</a></li>
+      
+      <li><a href="https://codingdojo.org/">pt</a></li>
+      
+    </ul>
+  </nav>
+</footer>
+
+</body>
+</html>
