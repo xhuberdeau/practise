@@ -6,7 +6,7 @@ const toCamelCase = (text: string): string => {
   if (rest.length === 0) {
     return first;
   }
-  console.log(first, rest);
+
   return `${first}${toPascalCase(rest.join(" "))}`;
 };
 
