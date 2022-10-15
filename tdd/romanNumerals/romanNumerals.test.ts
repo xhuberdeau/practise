@@ -1,7 +1,7 @@
-import { convertToRoman } from "./romanNumerals";
+import { convertToArabic, convertToRoman } from "./romanNumerals";
 
 describe("Roman Numerals", () => {
-  describe("Convert from normal numbers to Roman numerals", () => {
+  describe("Convert from Arabic numbers to Roman numerals", () => {
     it("converts 1 to I", () => {
       expect(convertToRoman(1)).toBe("I");
     });
@@ -76,6 +76,28 @@ describe("Roman Numerals", () => {
 
     it("converts 4999 to MMMMCMXCIX", () => {
       expect(convertToRoman(4999)).toBe("MMMMCMXCIX");
+    });
+  });
+
+  describe("Convert from Roman numbers to Arabic numerals", () => {
+    it("converts I to 1", () => {
+      expect(convertToArabic("I")).toBe(1);
+    });
+
+    it("converts MCCCLXXVI to 1376 ", () => {
+      expect(convertToArabic("MCCCLXXVI")).toBe(1376);
+    });
+
+    it("converts CDXCIX to 499 ", () => {
+      expect(convertToArabic("CDXCIX")).toBe(499);
+    });
+
+    it("converts MMCDXCIV to 2494", () => {
+      expect(convertToArabic("MMCDXCIV")).toBe(2494);
+    });
+
+    it("converts MMMMCMXCIX to 4999  ", () => {
+      expect(convertToArabic("MMMMCMXCIX")).toBe(4999);
     });
   });
 });

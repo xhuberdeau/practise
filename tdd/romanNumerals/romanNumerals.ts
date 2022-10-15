@@ -1,4 +1,4 @@
-const SYMBOLS_MAP: {
+const ARABIC_TO_ROMAN: {
   [key: number]: string;
 } = {
   1000: "M",
@@ -16,21 +16,45 @@ const SYMBOLS_MAP: {
   1: "I",
 };
 
+const ROMAN_TO_ARABIC: {
+  [key: string]: string;
+} = Object.fromEntries(
+  Object.entries(ARABIC_TO_ROMAN).map((entry) => entry.reverse())
+);
+
 export const convertToRoman = (number: number) => {
   let remaining = number;
   const nearestSmallerArabic = findGreatestArabicLesserThanOrEqual(number);
-  const greatestRoman = SYMBOLS_MAP[nearestSmallerArabic];
+  const roman = ARABIC_TO_ROMAN[nearestSmallerArabic];
   remaining -= nearestSmallerArabic;
   if (remaining > 0) {
-    return greatestRoman + convertToRoman(remaining);
+    return roman + convertToRoman(remaining);
   }
 
-  return greatestRoman;
+  return roman;
 };
 
 const findGreatestArabicLesserThanOrEqual = (arabic: number): number => {
-  return Object.keys(SYMBOLS_MAP)
+  return Object.keys(ARABIC_TO_ROMAN)
     .map(Number)
     .sort((a, b) => b - a)
     .find((val: number) => val <= arabic);
+};
+
+export const convertToArabic = (roman: string): number => {
+  let remaining = roman;
+  const nearestSmallerRoman = findGreatestRomaonLesserThanOrEqual(roman);
+  const arabic = Number.parseInt(ROMAN_TO_ARABIC[nearestSmallerRoman]);
+  remaining = remaining.slice(nearestSmallerRoman.length);
+  if (remaining) {
+    return arabic + convertToArabic(remaining);
+  }
+
+  return arabic;
+};
+
+const findGreatestRomaonLesserThanOrEqual = (roman: string): string => {
+  return Object.keys(ROMAN_TO_ARABIC)
+    .sort((a, b) => b.localeCompare(a))
+    .find((val: string) => roman.startsWith(val));
 };
