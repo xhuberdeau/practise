@@ -26,7 +26,7 @@
     "lint": "eslint . --ext .ts --no-error-on-unmatched-pattern",
     "lint:fix": "eslint . --ext .ts --fix --no-error-on-unmatched-pattern",
     "test": "jest --passWithNoTests",
-    "test:dev": "jest --watchAll",
+    "test:dev": "jest --watchAll --testPathPattern",
     "prepare": "husky install",
     "kata": "ts-node --esm tooling/tdd/kataImporter/index.ts"
   },
